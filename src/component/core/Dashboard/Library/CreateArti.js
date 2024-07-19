@@ -65,7 +65,7 @@ const CreateArti = ({sectionId}) => {
           
           
            <div className=" flex flex-col gap-2 px-2" >
-          <label className=" text-orange-500 font-semibold">
+          <label className=" text-green-500 font-semibold">
             Enter Heading of Arti<sup className=" text-red-500 text-sm">*</sup>
           </label>
           <input
@@ -79,7 +79,7 @@ const CreateArti = ({sectionId}) => {
           )}
           </div>
           <div className=" flex flex-col gap-2 px-2">
-          <label className=" text-orange-500 font-semibold">
+          <label className=" text-green-500 font-semibold">
             Enter About arti<sup className=" text-red-500 text-sm">*</sup>
           </label>
           <textarea
